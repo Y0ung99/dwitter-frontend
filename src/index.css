@@ -1,8 +1,7 @@
 :root {
   --color-white: #f9fafa;
   --color-black: #141518;
-  --color-blue: #1a9ff0;
-  --color-darkBlue: #073d5d;
+  --color-ddarkGrey: #565656;
   --color-grey: #dee0e0;
   --color-darkGrey: #969696;
   --color-red: #cc473d;
@@ -19,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--color-darkBlue);
+  background: var(--color-ddarkGrey);
   display: flex;
   justify-content: center;
   margin: 0;
@@ -69,8 +68,8 @@ button {
 }
 
 .logo-img {
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
 }
 
 .logo-name {
@@ -80,7 +79,7 @@ button {
 
 .logo-user {
   font-size: 0.7rem;
-  color: var(--color-blue);
+  color: var(--color-black);
   padding-top: 8px;
 }
 
@@ -117,7 +116,7 @@ button {
 
 .form-btn {
   font-size: 1.2rem;
-  background: var(--color-blue);
+  background: var(--color-black);
   font-weight: bold;
   padding: 4px;
 }
@@ -136,7 +135,7 @@ button {
 }
 
 .form-input:focus {
-  outline: 2px dotted var(--color-blue);
+  outline: 2px dotted var(--color-black);
 }
 
 .form-signup {
@@ -152,7 +151,7 @@ button {
   /* Firefox */
   scrollbar-width: 6px;
   scrollbar-color: var(--color-darkGrey);
-  scrollbar-face-color: var(--color-blue);
+  scrollbar-face-color: var(--color-black);
 }
 
 .tweets::-webkit-scrollbar {
@@ -163,7 +162,7 @@ button {
 
 .tweets::-webkit-scrollbar-thumb {
   /* Safari and Chrome */
-  background-color: var(--color-blue);
+  background-color: var(--color-black);
 }
 
 .tweets-empty {
@@ -221,7 +220,7 @@ button {
 .tweet-date {
   font-size: 0.7rem;
   margin-left: 4px;
-  color: var(--color-blue);
+  color: var(--color-black);
   font-weight: bold;
 }
 
@@ -259,7 +258,7 @@ button {
 .tweet-action-btn {
   font-size: 1.1rem;
   font-weight: bold;
-  color: var(--color-blue);
+  color: var(--color-black);
   transition: transform 300ms;
 }
 
@@ -275,7 +274,7 @@ button {
 .form-btn-update,
 .form-btn-cancel {
   font-size: 0.8rem;
-  background: var(--color-blue);
+  background: var(--color-black);
   font-weight: bold;
   padding: 4px;
 }
